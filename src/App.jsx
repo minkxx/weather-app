@@ -17,7 +17,7 @@ function App() {
   const setCityData = async (query = 'Silchar', days = 7) => {
     try {
       const response = await fetch(
-        `https://api.weatherapi.com/v1/forecast.json?key=86b8bce67ea8416686085652250506&q=${query}&days=${days}`
+        `https://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=${query}&days=${days}`
       );
 
       if (!response.ok) {
