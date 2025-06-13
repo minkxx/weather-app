@@ -7,7 +7,7 @@ const TodayWeatherCard = ({ time, icon_code, temp_c }) => {
     return (
         <div className='flex flex-col text-white font-semibold items-center space-y-1'>
             <p className="" >{formatTo12Hour(time)}</p>
-            <img src="src\assets\clouds_img\heavy-rain.png" alt={icon_code} className="h-14" />
+            <img src="\clouds_img\heavy-rain.png" alt={icon_code} className="h-14" />
             <p className="text-xl" >{temp_c}°</p>
         </div>
     )
