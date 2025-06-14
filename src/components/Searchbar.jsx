@@ -23,7 +23,7 @@ const SearchBar = ({ onSearch }) => {
           />
           <button
             type="submit"
-            className="absolute right-3 top-1/2 transform -translate-y-1/2 text-slate-400 hover:text-white"
+            className="relative right-8 top-3 transform -translate-y-1/2 text-slate-400 hover:text-white"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path

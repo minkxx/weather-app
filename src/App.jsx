@@ -50,7 +50,6 @@ function App() {
 
   const handleSearch = (searchTerm) => {
     setCityData(searchTerm);
-    console.log(currentWeatherData)
   }
 
   if (!currentWeatherData) {
